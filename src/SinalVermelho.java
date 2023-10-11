@@ -1,8 +1,8 @@
 
 public class SinalVermelho implements Sinal {
-	String cor = "Vermelho";
-	String acao = "PARE";
-	Semaforo semaforo;
+	private String cor = "Vermelho";
+	private String acao = "PARE";
+	private Semaforo semaforo;
 
 	@Override
 	public String getAcao() {
